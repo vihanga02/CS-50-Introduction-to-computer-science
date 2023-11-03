@@ -1,3 +1,5 @@
+#this text file contains contents of my "Emoji.py" file
+
 def main():
     face = str(input("enter a phrase: "))
     print(convert(face))
