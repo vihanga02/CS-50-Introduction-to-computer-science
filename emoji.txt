@@ -1,0 +1,10 @@
+def main():
+    face = str(input("enter a phrase: "))
+    print(convert(face))
+    ##print(convert1(face))
+
+def convert(to):
+    kk1 = to.replace(":)","🙂").replace(":(","🙁")
+    return kk1
+
+main()
